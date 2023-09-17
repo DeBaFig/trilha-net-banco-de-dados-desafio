@@ -2,7 +2,7 @@
 
 ![Badge Concluido](http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=red&style=for-the-badge)  
 
-![GitHub last commit](https://img.shields.io/github/last-commit/DeBaFig/trilha-net-fundamentos-desafio-cs) [![GitHub license](https://img.shields.io/github/license/DeBaFig/site-nick-projeto)](https://github.com/DeBaFig/site-nick-projeto/blob/main/LICENSE) 
+![GitHub last commit](https://img.shields.io/github/last-commit/DeBaFig/trilha-net-banco-de-dados-desafio) [![GitHub license](https://img.shields.io/github/license/DeBaFig/site-nick-projeto)](https://github.com/DeBaFig/site-nick-projeto/blob/main/LICENSE) 
 
 <h1 align="center">Dasafio DIO - SQL</h1>
 

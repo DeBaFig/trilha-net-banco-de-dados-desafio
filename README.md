@@ -1,91 +1,42 @@
-# DIO - Trilha .NET - Banco de Dados
-www.dio.me
+![overlearning2](https://github.com/DeBaFig/trilha-net-fundamentos-desafio-cs/assets/46844031/ff80cc08-9167-473c-9c2b-562ea18b223c)
 
-## Desafio de projeto
-Para este desafio, você precisará usar seus conhecimentos adquiridos no módulo de banco de dados, da trilha .NET da DIO.
+![Badge Concluido](http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=red&style=for-the-badge)  
 
-## Contexto
-Você é responsável pelo banco de dados de um site de filmes, onde são armazenados dados sobre os filmes e seus atores. Sendo assim, foi solicitado para que você realize uma consulta no banco de dados com o objetivo de trazer alguns dados para análises.
+![GitHub last commit](https://img.shields.io/github/last-commit/DeBaFig/trilha-net-fundamentos-desafio-cs) [![GitHub license](https://img.shields.io/github/license/DeBaFig/site-nick-projeto)](https://github.com/DeBaFig/site-nick-projeto/blob/main/LICENSE) 
 
-## Proposta
-Você precisará realizar 12 consultas ao banco de dados, cada uma retornando um tipo de informação.
-O seu banco de dados está modelado da seguinte maneira:
+<h1 align="center">Dasafio DIO - SQL</h1>
 
-![Diagrama banco de dados](Imagens/diagrama.png)
+<!--ts-->
+   * [Sobre](#sobre)
+   * [Detalhes](#detalhes)
+   * [Créditos](#créditos)
+   * [Autora](#autora)
+<!--te-->
 
-As tabelas sao descritas conforme a seguir:
 
-**Filmes**
+## Sobre  
 
-Tabela responsável por armazenar informações dos filmes.
+Estou reforçando conteúdo de SQL para o [Bootcamp na DIO](https://web.dio.me/track/bootcamp-wex-desenvolvimento-net-e-qa) 
 
-**Atores**
+## Detalhes
 
-Tabela responsável por armazenar informações dos atores.
+O desafio era desenvolver querys baseadas no solicitado no repositório [original](https://github.com/digitalinnovationone/trilha-net-banco-de-dados-desafio)
 
-**Generos**
+## Créditos
 
-Tabela responsável por armazenar os gêneros dos filmes.
+ [DIO](https://www.dio.me/)  
+ [Repositório original](https://github.com/digitalinnovationone/trilha-net-banco-de-dados-desafio)  
+ [Instrutor - Leonardo Buta](https://github.com/leonardo-buta)  
 
-**ElencoFilme**
+## Autora
 
-Tabela responsável por representar um relacionamento do tipo muitos para muitos entre filmes e atores, ou seja, um ator pode trabalhar em muitos filmes, e filmes
-podem ter muitos atores.
+**Denize**
 
-**FilmesGenero**
+It is not luck, it is hard work!
 
-Tabela responsável por representar um relacionamento do tipo muitos para muitos entre filmes e gêneros, ou seja, um filme pode ter mais de um gênero, e um genêro pode fazer parte de muitos filmes.
+<img style="border-radius: 50%;" src="https://user-images.githubusercontent.com/46844031/163518939-915f6e15-200a-4e9c-9f54-9bee6beec89b.jpg" width="100px;" alt=""/>
 
-## Preparando o banco de dados
-Você deverá executar o arquivo **Script Filmes.sql** em seu banco de dados SQL Server, presente na pasta Scripts deste repositório ([ou clique aqui](Script%20Filmes.sql)). Esse script irá criar um banco chamado **Filmes**, contendo as tabelas e os dados necessários para você realizar este desafio.
+Onde me encontrar:
 
-## Objetivo
-Você deverá criar diversas consultas, com o objetivo de retornar os dados a seguir. Abaixo de cada pedido tem o retorno esperado. O seu retorno deve ser igual ao da imagem.
-
-## 1 - Buscar o nome e ano dos filmes
-
-![Exercicio 1](Imagens/1.png)
-
-## 2 - Buscar o nome e ano dos filmes, ordenados por ordem crescente pelo ano
-
-![Exercicio 2](Imagens/2.png)
-
-## 3 - Buscar pelo filme de volta para o futuro, trazendo o nome, ano e a duração
-
-![Exercicio 3](Imagens/3.png)
-
-## 4 - Buscar os filmes lançados em 1997
-
-![Exercicio 4](Imagens/4.png)
-
-## 5 - Buscar os filmes lançados APÓS o ano 2000
-
-![Exercicio 5](Imagens/5.png)
-
-## 6 - Buscar os filmes com a duracao maior que 100 e menor que 150, ordenando pela duracao em ordem crescente
-
-![Exercicio 6](Imagens/6.png)
-
-## 7 - Buscar a quantidade de filmes lançadas no ano, agrupando por ano, ordenando pela duracao em ordem decrescente
-
-![Exercicio 7](Imagens/7.png)
-
-## 8 - Buscar os Atores do gênero masculino, retornando o PrimeiroNome, UltimoNome
-
-![Exercicio 8](Imagens/8.png)
-
-## 9 - Buscar os Atores do gênero feminino, retornando o PrimeiroNome, UltimoNome, e ordenando pelo PrimeiroNome
-
-![Exercicio 9](Imagens/9.png)
-
-## 10 - Buscar o nome do filme e o gênero
-
-![Exercicio 10](Imagens/10.png)
-
-## 11 - Buscar o nome do filme e o gênero do tipo "Mistério"
-
-![Exercicio 11](Imagens/11.png)
-
-## 12 - Buscar o nome do filme e os atores, trazendo o PrimeiroNome, UltimoNome e seu Papel
-
-![Exercicio 12](Imagens/12.png)
+[![Twitter Badge](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/Dbassi91)  [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dbfigueiredo/)   [![Gmail Badge](	https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:denize.f.bassi@gmail.com)   [![CodePen](https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white)](https://codepen.io/debafig)   [![Facebook Badge](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/d.bassi91/)  
+[![GitHub Badge](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DeBaFig)   [![Instagram Badge](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/bassidenize/)   [![website Badge](https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://debafig.github.io/me/)   [![Whatsapp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://whatsa.me/5547935051914)  [![Discord](https://img.shields.io/badge/DeBaFig%235875-%237289DA.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discordapp.com/users/DeBaFig#5875)  
